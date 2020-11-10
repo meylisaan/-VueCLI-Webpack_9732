@@ -158,14 +158,6 @@ methods: {
             this.formTodo = item;
             this.dialog = true;
         },
-    showItem(item) {
-            this.detail = {
-                task: item.task,
-                priority: item.priority,
-                note: item.note,
-            }
-            this.dialognote = true;
-        },
  },
 };
 </script>   
